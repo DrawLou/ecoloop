@@ -3,6 +3,8 @@ body, html {
     padding: 0;
 }
 
+/*  HEADER  */
+
 header {
     margin: 0 auto;
     width: 90%;
@@ -24,3 +26,23 @@ header {
     width: 100%;
 }
 
+/*  COLLECTE  */
+.collecte {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contenuCollecte {
+    display: flex;
+    flex-direction: column;
+}
+
+.etapeCollecte {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*  EXPLORER  */

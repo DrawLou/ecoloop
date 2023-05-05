@@ -1,0 +1,104 @@
+/* general */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex-column {
+    flex-direction: column;
+}
+
+.d-flex-spacearound {
+    justify-content: space-around;
+}
+
+.margin-top-bot {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.margin-left-right {
+    margin: 0 auto;
+    width: 90%;
+}
+
+/*  HEADER  */
+
+.presentation {
+    width: 45%;
+    justify-content: center;
+}
+
+.mockupPresentation {
+    width: 45%;
+}
+
+.mockupPresentation img {
+    width: 100%;
+}
+
+/*  COLLECTE  */
+
+/*  EXPLORER  */
+
+.contenuExplorer {
+    width: 45%;
+    justify-content: center;
+}
+
+.mockupExplorer {
+    width: 45%;
+}
+
+.mockupExplorer img {
+    width: 100%;
+}
+
+/* SUCCES */
+
+.mockupSucces {
+    width: 45%;
+}
+
+.mockupSucces img {
+    width: 100%;
+}
+
+.contenuSucces {
+    width: 45%;
+    justify-content: center;
+}
+
+/* TELECHARGE */
+
+.contenuTelecharger {
+    width: 45%;
+    justify-content: center;
+}
+
+.iconeInstallation {
+    justify-content: space-between;
+}
+
+.mockupTelecharger {
+    width: 45%;
+}
+
+.mockupTelecharger img {
+    width: 100%;
+}
+
+/* FOOTER */
+footer {
+    justify-content: space-between;
+}
+
+.reseauxSociaux a img {
+    margin: 0 0.5rem;
+}

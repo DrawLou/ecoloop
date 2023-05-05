@@ -1,24 +1,29 @@
-/* general */
+/* GENERAL */
+* {
+    font-family: 'Open Sans', sans-serif;
+}
 
 body,
 html {
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
     font-size: 5rem;
+    font-weight: 800;
     margin: 0;
 }
 
 h2 {
     font-size: 3.812rem;
+    font-weight: 800;
     margin: 0;
 }
 
 h3 {
     font-size: 2.938rem;
+    font-weight: 800;
     margin: 0;
 }
 

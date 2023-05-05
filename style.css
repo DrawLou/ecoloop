@@ -6,7 +6,7 @@ body, html {
 /*  HEADER  */
 
 header {
-    margin: 0 auto;
+    margin: 2rem auto;
     width: 90%;
     display: flex;
     justify-content: space-around;
@@ -16,6 +16,7 @@ header {
     display: flex;
     flex-direction: column;
     width: 45%;
+    justify-content: center;
 }
 
 .mockupPresentation {
@@ -28,7 +29,7 @@ header {
 
 /*  COLLECTE  */
 .collecte {
-    margin: 0 auto;
+    margin: 2rem auto;
     width: 90%;
     display: flex;
     justify-content: space-around;
@@ -46,3 +47,26 @@ header {
 }
 
 /*  EXPLORER  */
+.explorer {
+    margin: 2rem auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.mockupExplorer {
+    width: 45%;
+}
+
+.mockupExplorer img{
+    width: 100%;
+}
+
+.contenuExplorer {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+

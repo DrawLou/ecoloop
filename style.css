@@ -95,3 +95,50 @@ header {
 }
 
 /* TELECHARGE */ 
+.telecharger {
+    margin: 2rem auto;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contenuTelecharger {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.iconeInstallation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mockupTelecharger {
+    width: 45%;
+}
+
+.mockupTelecharger img{
+    width: 100%;
+}
+
+/* FOOTER */
+footer {
+    margin: 2rem auto 1rem;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.reseauxSociaux {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.reseauxSociaux a img {
+    margin: 0 0.5rem;
+}

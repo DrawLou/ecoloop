@@ -131,3 +131,46 @@ footer {
 .reseauxSociaux a img {
     margin: 0 0.5rem;
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 880px) {
+h1 {
+    font-size: 3.812rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.938rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+h3 {
+    font-size: 2.938rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+header {
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.etapeCollecte {
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenuSucces {
+    order: -1;
+}
+
+}

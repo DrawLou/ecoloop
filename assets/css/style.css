@@ -61,6 +61,10 @@ p {
     justify-content: center;
 }
 
+.presentation h1 {
+    color: #00A756;
+}
+
 .mockupPresentation {
     width: 45%;
 }
@@ -73,6 +77,10 @@ p {
 .titreCollecte {
     text-align: center;
 }
+
+/*.collecte {
+    background-color: #00A756;
+}*/
 
 /*  EXPLORER  */
 
@@ -125,10 +133,17 @@ p {
 
 /* FOOTER */
 footer {
+    align-items: center;
     justify-content: space-between;
+    border-top: 1px solid #000;
+    padding-top: 1rem;
 }
 
-.reseauxSociaux a img {
+.logo img {
+    width: 200px;
+}
+
+.infos a {
     margin: 0 0.5rem;
 }
 

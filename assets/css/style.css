@@ -74,15 +74,32 @@ p {
 }
 
 /*  COLLECTE  */
+.titreC {
+    justify-content: center;
+}
+
+.titreC img {
+    margin: 0 1rem;
+}
+
 .titreCollecte {
     text-align: center;
 }
 
-/*.collecte {
+.collecte {
     background-color: #00A756;
-}*/
+}
 
 /*  EXPLORER  */
+.titreE {
+    align-items: center;
+}
+
+.titreE img {
+    margin: 0 1rem;
+    width: 70px;
+    height: 70px;
+}
 
 .contenuExplorer {
     width: 45%;

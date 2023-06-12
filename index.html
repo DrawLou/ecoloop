@@ -15,12 +15,10 @@
 </head>
 
 <body>
+    <!-- Header -->
 
-    <div class="margin-left-right">
-
-        <!-- Header -->
-
-        <header class="d-flex d-flex-spacearound margin-top-bot">
+    <header class="d-flex d-flex-column d-flex-spacearound margin">
+        <div class="containerHeader d-flex">
             <div class="d-flex d-flex-column presentation">
                 <h1>ÉCOLOOP</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit incidunt blanditiis quis totam,
@@ -30,90 +28,95 @@
             <div class="mockupPresentation">
                 <img src="https://placehold.co/600x550" alt="Aperçu de l'application">
             </div>
-        </header>
+        </div>
+        <div class="next">
+            <a href="#collecte"><img src="" alt="flèche pour descendre"></a>
+        </div>
+    </header>
 
-        <!-- Collecte -->
+    <!-- Collecte -->
 
-        <section class="d-flex d-flex-column d-flex-spacearound margin-top-bot collecte">
-            <div class="d-flex titreC">
-                <h2 class="titreCollecte">Trouver un point de collecte</h2>
-                <img src="assets/img/🦆 icon _map_.png" alt="icone carte">
+    <section class="d-flex d-flex-column d-flex-spacearound margin-top-bot collecte" id="collecte">
+        <div class="d-flex titreC">
+            <h2 class="titreCollecte">Trouver un point de collecte</h2>
+            <img src="assets/img/🦆 icon _map_.png" alt="icone carte">
+        </div>
+        <div class="d-flex d-flex-column d-flex-spacearound contenuCollecte">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit incidunt blanditiis quis totam,
+                repudiandae, consequuntur, labore hic modi corrupti saepe dicta itaque quas exercitationem
+                recusandae. Possimus cum dolore corporis a.</p>
+            <div class="d-flex d-flex-spacearound  etapeCollecte">
+                <img src="https://placehold.co/290x370" alt="Chercher un point de collecte">
+                <img src="https://placehold.co/290x370" alt="Les points de collecte le plus proche sur une map">
+                <img src="https://placehold.co/290x370" alt="La liste des points de collecte le plus proche">
             </div>
-            <div class="d-flex d-flex-column d-flex-spacearound contenuCollecte">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit incidunt blanditiis quis totam,
-                    repudiandae, consequuntur, labore hic modi corrupti saepe dicta itaque quas exercitationem
-                    recusandae. Possimus cum dolore corporis a.</p>
-                <div class="d-flex d-flex-spacearound  etapeCollecte">
-                    <img src="https://placehold.co/290x370" alt="Chercher un point de collecte">
-                    <img src="https://placehold.co/290x370" alt="Les points de collecte le plus proche sur une map">
-                    <img src="https://placehold.co/290x370" alt="La liste des points de collecte le plus proche">
-                </div>
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- Explorer -->
+    <!-- Explorer -->
 
-        <section class="d-flex d-flex-spacearound  explorer margin-top-bot">
-            <div class="d-flex d-flex-column contenuExplorer">
-                <div class="d-flex titreE">
-                    <h2>Explorer</h2>
-                    <img src="assets/img/🦆 icon _compass_.png" alt="icone boussole">
-                </div>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit incidunt blanditiis quis totam,
-                    repudiandae, consequuntur, labore hic modi corrupti saepe dicta itaque quas exercitationem
-                    recusandae. Possimus cum dolore corporis a.</p>
+    <section class="d-flex d-flex-spacearound explorer margin">
+        <div class="d-flex d-flex-column contenuExplorer">
+            <div class="d-flex titreE">
+                <h2>Explorer</h2>
+                <img src="assets/img/🦆 icon _compass_.png" alt="icone boussole">
             </div>
-            <div class="mockupExplorer">
-                <img src="https://placehold.co/600x550" alt="Aperçu de la fonctionnalité Explorer">
-            </div>
-        </section>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit incidunt blanditiis quis totam,
+                repudiandae, consequuntur, labore hic modi corrupti saepe dicta itaque quas exercitationem
+                recusandae. Possimus cum dolore corporis a.</p>
+        </div>
+        <div class="mockupExplorer">
+            <img src="https://placehold.co/600x550" alt="Aperçu de la fonctionnalité Explorer">
+        </div>
+    </section>
 
-        <!-- Succes -->
+    <!-- Succes -->
 
-        <section class="d-flex d-flex-spacearound  succes margin-top-bot">
-            <div class="mockupSucces">
-                <img src="https://placehold.co/600x550" alt="Aperçu de la fonctionnalité Succès">
-            </div>
-            <div class="d-flex d-flex-column d-flex-spacearound contenuSucces">
-                <h2>Succès</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit incidunt blanditiis quis totam,
-                    repudiandae, consequuntur, labore hic modi corrupti saepe dicta itaque quas exercitationem
-                    recusandae. Possimus cum dolore corporis a.</p>
-            </div>
-        </section>
+    <section class="d-flex d-flex-spacearound succes margin-top-bot">
+        <div class="mockupSucces">
+            <img src="https://placehold.co/600x550" alt="Aperçu de la fonctionnalité Succès">
+        </div>
+        <div class="d-flex d-flex-column d-flex-spacearound contenuSucces">
+            <h2>Succès</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit incidunt blanditiis quis totam,
+                repudiandae, consequuntur, labore hic modi corrupti saepe dicta itaque quas exercitationem
+                recusandae. Possimus cum dolore corporis a.</p>
+        </div>
+    </section>
 
-        <!-- Telecharger -->
+    <!-- Telecharger -->
 
-        <section class="d-flex d-flex-spacearound telecharger margin-top-bot">
-            <div class="d-flex d-flex-column contenuTelecharger">
-                <h2>Télécharger</h2>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit incidunt blanditiis quis totam,
-                    repudiandae, consequuntur, labore hic modi corrupti saepe dicta itaque quas exercitationem
-                    recusandae. Possimus cum dolore corporis a.</p>
-                <div class="d-flex iconeInstallation">
-                    <a href="#"><img src="assets/img/appstore.png" alt="App Store"></a>
-                    <a href="#"><img src="assets/img/google-play.png" alt="Google Play"></a>
-                </div>
+    <section class="d-flex d-flex-spacearound telecharger margin">
+        <div class="d-flex d-flex-column contenuTelecharger">
+            <h2>Télécharger</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit incidunt blanditiis quis totam,
+                repudiandae, consequuntur, labore hic modi corrupti saepe dicta itaque quas exercitationem
+                recusandae. Possimus cum dolore corporis a.</p>
+            <div class="d-flex iconeInstallation">
+                <a href="#"><img src="assets/img/appstore.png" alt="App Store"></a>
+                <a href="#"><img src="assets/img/google-play.png" alt="Google Play"></a>
             </div>
-            <div class="mockupTelecharger">
-                <img src="https://placehold.co/600x550" alt="Aperçu de l'application">
-            </div>
-        </section>
+        </div>
+        <div class="mockupTelecharger">
+            <img src="https://placehold.co/600x550" alt="Aperçu de l'application">
+        </div>
+    </section>
 
-        <!-- Footer -->
+    <!-- Footer -->
 
-        <footer class="d-flex margin-top-bot">
-            <div class="d-flex d-flex-column logo">
-                <p>Service proposé par</p>
-                <img src="assets/img/fd.png" alt="Logo d'Écosystem">
-            </div>
-            <div class="d-flex d-flex-spacearound infos">
-                <a href="#">Mention légale</a>
-                <a href="#">Données personnelles</a>
-            </div>
-        </footer>
+    <footer class="d-flex margin-top-bot margin">
+        <div class="d-flex d-flex-column logo">
+            <p>Service proposé par</p>
+            <img src="assets/img/fd.png" alt="Logo d'Écosystem">
+        </div>
+        <div class="d-flex d-flex-spacearound infos">
+            <a href="#">Mention légale</a>
+            <a href="#">Données personnelles</a>
+        </div>
+    </footer>
 
-    </div>
+        
+
 
     <script src="script.js"></script>
 </body>

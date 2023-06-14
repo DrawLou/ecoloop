@@ -38,26 +38,4 @@ legend {
     font-size: 0.625rem;
 }
 
-.d-flex {
-    display: flex;
-}
-
-.d-flex-column {
-    flex-direction: column;
-}
-
-.d-flex-spacearound {
-    justify-content: space-around;
-}
-
-.margin-top-bot {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.margin {
-    margin: 2rem auto;
-    width: 90%;
-}
-
 /*  HEADER  */

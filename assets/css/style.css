@@ -194,3 +194,32 @@ button a {
         transform: translateY(0);
     }
 }
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 1500px) {
+    .d-flex {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .d-flex-justify-spacebetween {
+        justify-content: none;
+    }
+
+    h1,
+    h2,
+    h3,
+    legend,
+    p {
+        text-align: center;
+    }
+
+    .succes {
+        order: 1;
+    }
+
+    .mockupSucces {
+        order: 2;
+    }
+
+}

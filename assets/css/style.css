@@ -135,3 +135,12 @@ button a {
     align-items: center;
     width: 90%;
 }
+
+.mockupExplorer {
+    float: right;
+}
+
+.mockupExplorer img {
+    filter: mockupExplorer(7px 7px 10px #666666);
+    -webkit-filter: mockupExplorer(7px 7px 10px #666666);
+}

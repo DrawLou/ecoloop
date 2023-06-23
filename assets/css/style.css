@@ -22,6 +22,7 @@ h2 {
     font-weight: 800;
     margin: 0;
     text-transform: uppercase;
+    color: #002E50;
 }
 
 h3 {
@@ -29,10 +30,12 @@ h3 {
     font-weight: 800;
     margin: 0;
     text-transform: uppercase;
+    color: #002E50;
 }
 
 p {
     font-size: 1rem;
+    color: #002E50;
 }
 
 legend {
@@ -136,11 +139,62 @@ button a {
     width: 90%;
 }
 
-.mockupExplorer {
+.contenuExplorer {
+    margin-right: 10rem;
+}
+
+.drop-shadow {
     float: right;
 }
 
-.mockupExplorer img {
-    filter: mockupExplorer(7px 7px 10px #666666);
-    -webkit-filter: mockupExplorer(7px 7px 10px #666666);
+.drop-shadow img {
+    filter: drop-shadow(7px 7px 15px #666666);
+    -webkit-filter: drop-shadow(7px 7px 15px #666666);
+}
+
+/* Succes */
+
+.succes {
+    background-color: #00DABE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.contenuSucces {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Telecharger */
+
+.telecharger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenuTelecharger {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ecosystem {
+    display: flex;
+    flex-direction: column;
+}
+
+.mentionLegale a {
+    text-decoration: none;
+    color: #002E50;
+    margin-left: 2rem;
 }

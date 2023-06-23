@@ -17,9 +17,9 @@
 <body>
 
     <!-- Header -->
-    <header class="d-flex margin-left-right">
-        <div class="containerHeader d-flex">
-            <div class="presentation d-flex">
+    <header class="d-flex d-flex-column margin-left-right">
+        <div class="containerHeader d-flex d-flex-justify-spacebetween d-flex-align-center">
+            <div class="presentation d-flex d-flex-column">
                 <h1>Avec écoloop trouvez, recyclez, et protégez notre planète avec notre application dédiée aux DEEE* !
                 </h1>
                 <legend>*Déchets d'équipements électriques et électroniques</legend>
@@ -35,7 +35,7 @@
     </header>
 
     <!-- Collecter -->
-    <section class="collecter d-flex padding-left-right padding-top" id="next">
+    <section class="collecter d-flex d-flex-column d-flex-align-center padding-left-right padding-top" id="next">
         <h2>Trouver un point de collecte</h2>
         <p>Recycler correctement vos déchets d'équipements électriques et électroniques (DEEE) est essentiel pour
             protéger l'environnement. Notre application vous simplifie la vie en vous permettant de trouver facilement
@@ -49,7 +49,8 @@
     </section>
 
     <!-- Explorer -->
-    <section class="explorer d-flex margin-left-right margin-top-bottom">
+    <section
+        class="explorer d-flex d-flex-justify-spacebetween d-flex-align-center margin-left-right margin-top-bottom">
         <div class="contenuExplorer">
             <h2>Explorer</h2>
             <p>Explorez des quiz interactifs qui testeront vos connaissances sur le recyclage et découvrez des articles
@@ -63,11 +64,12 @@
     </section>
 
     <!-- Succès -->
-    <section class="succes d-flex padding-left-right padding-top padding-bottom">
+    <section
+        class="succes d-flex d-flex-justify-spacebetween d-flex-align-center padding-left-right padding-top padding-bottom">
         <div class="mockupSucces">
             <img src="assets/img/mockupSucces.png" alt="présentation de la fonctionnalité succès">
         </div>
-        <div class="contenuSucces">
+        <div class="contenuSucces d-flex d-flex-column">
             <h2>Succès</h2>
             <p>Avec Écoloop, on est toujours gagnant ! Vous avez la possibilité de cumuler des points qui vous donnent
                 accès à des avantages exclusifs. Chaque fois que vous recyclez vos DEEE dans l'un des points de collecte
@@ -77,12 +79,14 @@
     </section>
 
     <!-- Télécharger -->
-    <section class="telecharger d-flex margin-left-right margin-top-bottom" id="telecharger">
-        <div class="contenuTelecharger">
+    <section
+        class="telecharger d-flex d-flex-justify-spacebetween d-flex-align-center margin-left-right margin-top-bottom"
+        id="telecharger">
+        <div class="contenuTelecharger d-flex d-flex-column">
             <h2>Télécharger</h2>
             <p>Ne laissez pas vos DEEE finir à la poubelle ! Téléchargez notre application dès maintenant et faites
                 votre part pour préserver l'environnement.</p>
-            <div class="logoTelecharger">
+            <div class="logoTelecharger d-flex">
                 <a href="#"><img src="assets/img/telechargerAppStore.png" alt="télécharger dans l'App Store"></a>
                 <a href="#"><img src="assets/img/telechargerGooglePlay.png" alt="Disponible sur Google Play"></a>
             </div>
@@ -94,8 +98,8 @@
     </section>
 
     <!-- Footer -->
-    <footer class="d-flex margin-left-right margin-top-bottom">
-        <div class="ecosystem">
+    <footer class="d-flex d-flex-justify-spacebetween d-flex-align-center margin-left-right margin-top-bottom">
+        <div class="ecosystem d-flex d-flex-column">
             <p>Service proposé par</p>
             <img src="assets/img/logoEcosystem.png" alt="Logo d'Écosystem">
         </div>

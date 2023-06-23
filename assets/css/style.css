@@ -69,8 +69,18 @@ legend {
 }
 
 .margin-top-bottom {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Padding */
+
+.padding-bottom {
+    padding-bottom: 3rem;
+}
+
+.padding-top {
+    padding-top: 3rem;
 }
 
 .padding-left-right {
@@ -79,33 +89,13 @@ legend {
     width: 90%;
 }
 
-/* Padding */
-
-.padding-bottom {
-    padding-bottom: 1rem;
-}
-
-.padding-top {
-    padding-top: 1rem;
-}
-
 /*  HEADER  */
 
 header {
-    margin: 5rem 0;
-    display: flex;
-    flex-direction: column;
-}
-
-.containerHeader {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin: 3rem 0;
 }
 
 .presentation {
-    display: flex;
-    flex-direction: column;
     width: 60%;
 }
 
@@ -118,6 +108,13 @@ button {
     background-color: #00DABE;
 }
 
+button:hover {
+    background-color: transparent;
+    border: 5px solid #00DABE;
+    border-radius: 42px;
+    transition: 0.4s ease;
+}
+
 button a {
     text-decoration: none;
     color: #002E50;
@@ -128,15 +125,13 @@ button a {
 
 .next {
     margin: 0 auto;
+    animation: 2s ease-in-out 1s infinite alternate apparition;
 }
 
 /* COLLECTER */
 
 .collecter {
     background-color: #002E50;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .collecter h2 {
@@ -150,9 +145,6 @@ button a {
 /* Explorer */
 
 .explorer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     width: 90%;
 }
 
@@ -173,45 +165,32 @@ button a {
 
 .succes {
     background-color: #00DABE;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     width: 90%;
 }
 
-.contenuSucces {
-    display: flex;
-    flex-direction: column;
-}
-
 /* Telecharger */
-
-.telecharger {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.contenuTelecharger {
-    display: flex;
-    flex-direction: column;
+.logoTelecharger img {
+    margin-right: 1rem;
 }
 
 /* Footer */
-
-footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.ecosystem {
-    display: flex;
-    flex-direction: column;
-}
 
 .mentionLegale a {
     text-decoration: none;
     color: #002E50;
     margin-left: 2rem;
+}
+
+/* Keyframes */
+
+@keyframes apparition {
+    to {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

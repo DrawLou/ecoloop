@@ -42,10 +42,25 @@ legend {
     font-size: 0.625rem;
 }
 
-/*.d-flex {
+/* Flex-box */
+
+.d-flex {
     display: flex;
-    /*justify-content: center;
-}*/
+}
+
+.d-flex-column {
+    flex-direction: column;
+}
+
+.d-flex-justify-spacebetween {
+    justify-content: space-between;
+}
+
+.d-flex-align-center {
+    align-items: center;
+}
+
+/* Margin */
 
 .margin-left-right {
     margin-left: auto;
@@ -63,6 +78,8 @@ legend {
     padding-right: 95.156px;
     width: 90%;
 }
+
+/* Padding */
 
 .padding-bottom {
     padding-bottom: 1rem;

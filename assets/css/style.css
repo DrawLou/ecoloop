@@ -13,7 +13,7 @@ h1 {
     font-size: 3.812rem;
     font-weight: 800;
     margin: 0;
-    text-transform : uppercase;
+    text-transform: uppercase;
     color: #002E50;
 }
 
@@ -21,14 +21,14 @@ h2 {
     font-size: 3.062rem;
     font-weight: 800;
     margin: 0;
-    text-transform : uppercase;
+    text-transform: uppercase;
 }
 
 h3 {
     font-size: 2.438rem;
     font-weight: 800;
     margin: 0;
-    text-transform : uppercase;
+    text-transform: uppercase;
 }
 
 p {
@@ -39,9 +39,10 @@ legend {
     font-size: 0.625rem;
 }
 
-.d-flex {
+/*.d-flex {
     display: flex;
-}
+    /*justify-content: center;
+}*/
 
 .margin-left-right {
     margin-left: auto;
@@ -71,15 +72,19 @@ legend {
 /*  HEADER  */
 
 header {
-    margin: 6rem 0;
+    margin: 5rem 0;
+    display: flex;
     flex-direction: column;
 }
 
 .containerHeader {
-    justify-content: space-between;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .presentation {
+    display: flex;
     flex-direction: column;
     width: 60%;
 }
@@ -106,6 +111,27 @@ button a {
 }
 
 /* COLLECTER */
+
 .collecter {
     background-color: #002E50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collecter h2 {
+    color: #fff;
+}
+
+.collecter p {
+    color: #fff;
+}
+
+/* Explorer */
+
+.explorer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
 }

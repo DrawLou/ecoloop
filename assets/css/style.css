@@ -86,7 +86,7 @@ legend {
 .padding-left-right {
     padding-left: 95.156px;
     padding-right: 95.156px;
-    width: 90%;
+    width: 100%;
 }
 
 /*  HEADER  */
@@ -165,7 +165,6 @@ button a {
 
 .succes {
     background-color: #00DABE;
-    width: 90%;
 }
 
 /* Telecharger */

@@ -84,3 +84,37 @@ window.addEventListener('DOMContentLoaded', function() {
     // Appel initial pour définir les images en fonction de la taille de l'écran au chargement de la page
     changeImagesBasedOnScreenWidth();
 });
+
+
+//Scroll Reveal
+window.addEventListener('DOMContentLoaded', function() {
+    // Initialiser ScrollReveal
+    const sr = ScrollReveal();
+
+    // Configurer les animations
+    sr.reveal('.mockupCollecter', {
+        duration: 1000,        // Durée de l'animation (en millisecondes)
+        origin: 'bottom',      // Point d'origine de l'animation
+        distance: '100px',      // Distance de décalage de l'élément
+        delay: 200,            // Délai avant le démarrage de l'animation (en millisecondes)
+        easing: 'ease-in-out', // Fonction d'accélération de l'animation
+    });
+
+    // Configurer les animations
+    sr.reveal('.slide-left', {
+        duration: 1000,        // Durée de l'animation (en millisecondes)
+        origin: 'left',      // Point d'origine de l'animation
+        distance: '100px',      // Distance de décalage de l'élément
+        delay: 200,            // Délai avant le démarrage de l'animation (en millisecondes)
+        easing: 'ease-in-out', // Fonction d'accélération de l'animation
+    });
+
+    // Configurer les animations
+    sr.reveal('.slide-right', {
+        duration: 1000,        // Durée de l'animation (en millisecondes)
+        origin: 'right',      // Point d'origine de l'animation
+        distance: '100px',      // Distance de décalage de l'élément
+        delay: 200,            // Délai avant le démarrage de l'animation (en millisecondes)
+        easing: 'ease-in-out', // Fonction d'accélération de l'animation
+    });
+});

@@ -1,0 +1,108 @@
+/*  HEADER  */
+
+header {
+    margin: 3rem 0;
+}
+
+.presentation {
+    width: 60%;
+}
+
+button {
+    margin: 1rem 0;
+    width: 242px;
+    height: 56px;
+    border-radius: 42px;
+    border: 0;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.250rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 5px solid var(--color-secondary);
+    border-radius: 42px;
+    transition: 0.4s ease;
+}
+
+.next {
+    margin: 2rem auto;
+    animation: 2s ease-in-out 1s infinite alternate apparition;
+}
+
+/* COLLECTER */
+
+.collecter {
+    background-color: var(--color-primary);
+}
+
+.collecter h2 {
+    color: #fff;
+}
+
+.collecter p {
+    color: #fff;
+}
+
+/* Explorer */
+
+.contenuExplorer {
+    margin-right: 10rem;
+    width: 40%;
+}
+
+.drop-shadow {
+    float: right;
+}
+
+.drop-shadow img {
+    filter: drop-shadow(7px 7px 15px #666666);
+    -webkit-filter: drop-shadow(7px 7px 15px #666666);
+}
+
+/* Succes */
+
+.succes {
+    background-color: var(--color-secondary);
+}
+
+.contenuSucces {
+    width: 40%;
+}
+
+/* Telecharger */
+
+.contenuTelecharger {
+    width: 40%;
+}
+
+.logoTelecharger img {
+    margin-right: 1rem;
+}
+
+/* Footer */
+
+.mentionLegale a {
+    text-decoration: none;
+    color: #002E50;
+    margin-left: 2rem;
+}
+
+/* Keyframes */
+
+@keyframes apparition {
+    to {
+        opacity: 0;
+        transform: translateY(-1rem);
+    }
+
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+

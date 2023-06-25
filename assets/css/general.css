@@ -1,0 +1,98 @@
+:root {
+    --color-primary: #002E50;
+    --color-secondary: #00DABE;
+    --font-family: 'Open Sans', sans-serif;
+  }
+  
+
+/* GENERAL */
+html {
+    scroll-behavior: smooth;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font-family);
+}
+
+h1 {
+    color: var(--color-primary);
+    font-size: 3.812rem;
+    font-weight: 800;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 3.062rem;
+    font-weight: 800;
+    margin: 0;
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+h3 {
+    font-size: 2.438rem;
+    font-weight: 800;
+    margin: 0;
+    text-transform: uppercase;
+    color: var(--color-primary);
+}
+
+p {
+    font-size: 1rem;
+    color: var(--color-primary);
+}
+
+legend {
+    font-size: 0.625rem;
+    color: var(--color-primary);
+}
+
+/* Flex-box */
+
+.d-flex {
+    display: flex;
+}
+
+.d-flex-column {
+    flex-direction: column;
+}
+
+.d-flex-justify-spacebetween {
+    justify-content: space-between;
+}
+
+.d-flex-align-center {
+    align-items: center;
+}
+
+/* Margin */
+
+.margin-left-right {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.margin-top-bottom {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Padding */
+
+.padding-bottom {
+    padding-bottom: 3rem;
+}
+
+.padding-top {
+    padding-top: 3rem;
+}
+
+.padding-left-right {
+    padding-left: 5%;
+    padding-right: 5%;
+}

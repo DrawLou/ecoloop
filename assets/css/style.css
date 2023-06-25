@@ -1,8 +1,11 @@
-/* GENERAL */
-* {
-    font-family: 'Open Sans', sans-serif;
-}
+:root {
+    --color-primary: #002E50;
+    --color-secondary: #00DABE;
+    --font-family: 'Open Sans', sans-serif;
+  }
+  
 
+/* GENERAL */
 html {
     scroll-behavior: smooth;
 }
@@ -11,14 +14,15 @@ body,
 html {
     margin: 0;
     padding: 0;
+    font-family: var(--font-family);
 }
 
 h1 {
+    color: var(--color-primary);
     font-size: 3.812rem;
     font-weight: 800;
     margin: 0;
     text-transform: uppercase;
-    color: #002E50;
 }
 
 h2 {
@@ -26,7 +30,7 @@ h2 {
     font-weight: 800;
     margin: 0;
     text-transform: uppercase;
-    color: #002E50;
+    color: var(--color-primary);
 }
 
 h3 {
@@ -34,16 +38,17 @@ h3 {
     font-weight: 800;
     margin: 0;
     text-transform: uppercase;
-    color: #002E50;
+    color: var(--color-primary);
 }
 
 p {
     font-size: 1rem;
-    color: #002E50;
+    color: var(--color-primary);
 }
 
 legend {
     font-size: 0.625rem;
+    color: var(--color-primary);
 }
 
 /* Flex-box */
@@ -108,8 +113,8 @@ button {
     height: 56px;
     border-radius: 42px;
     border: 0;
-    background-color: #00DABE;
-    color: #002E50;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
     text-transform: uppercase;
     font-weight: 800;
     font-size: 1.250rem;
@@ -118,18 +123,10 @@ button {
 
 button:hover {
     background-color: transparent;
-    border: 5px solid #00DABE;
+    border: 5px solid var(--color-secondary);
     border-radius: 42px;
     transition: 0.4s ease;
 }
-
-/*button a {
-    text-decoration: none;
-    color: #002E50;
-    text-transform: uppercase;
-    font-weight: 800;
-    font-size: 1.250rem;
-}*/
 
 .next {
     margin: 2rem auto;
@@ -139,7 +136,7 @@ button:hover {
 /* COLLECTER */
 
 .collecter {
-    background-color: #002E50;
+    background-color: var(--color-primary);
 }
 
 .collecter h2 {
@@ -169,7 +166,7 @@ button:hover {
 /* Succes */
 
 .succes {
-    background-color: #00DABE;
+    background-color: var(--color-secondary);
 }
 
 .contenuSucces {
@@ -233,6 +230,10 @@ button:hover {
 
     .mockupSucces {
         order: 2;
+    }
+
+    .contenuExplorer {
+        margin: 0;
     }
 
 }

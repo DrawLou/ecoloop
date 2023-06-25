@@ -107,6 +107,10 @@ header {
     width: 60%;
 }
 
+.mockupPresentation img {
+    src: url("assets/img/mockupAccueil.png");
+}
+
 button {
     margin: 1rem 0;
     width: 242px;
@@ -147,11 +151,19 @@ button:hover {
     color: #fff;
 }
 
+.mockupCollecter img {
+    src: url("assets/img/mockupCollecte.png");
+}
+
 /* Explorer */
 
 .contenuExplorer {
     margin-right: 10rem;
     width: 40%;
+}
+
+.mockupExplorer img {
+    src: url("assets/img/mockupExplorer.png");
 }
 
 .drop-shadow {
@@ -169,6 +181,10 @@ button:hover {
     background-color: var(--color-secondary);
 }
 
+.mockupSucces img {
+    src: url("assets/img/mockupSucces.png");
+}
+
 .contenuSucces {
     width: 40%;
 }
@@ -177,6 +193,10 @@ button:hover {
 
 .contenuTelecharger {
     width: 40%;
+}
+
+.mockupTelecharger img {
+    src: url("assets/img/mockupTelecharger.png");
 }
 
 .logoTelecharger img {
@@ -236,4 +256,26 @@ button:hover {
         margin: 0;
     }
 
+}
+
+@media screen and (max-width : 1080px) {
+    .mockupPresentation img {
+        src: url("assets/img/mockupAccueil-petit.png");
+    }
+
+    .mockupCollecter img {
+        src: url("assets/img/mockupCollecte-petit.png");
+    }
+
+    .mockupExplorer img {
+        src: url("assets/img/mockupExplorer-petit.png");
+    }
+
+    .mockupSucces img {
+        src: url("assets/img/mockupSucces-petit.png");
+    }
+
+    .mockupTelecharger img {
+        src: url("assets/img/mockupTelecharger-petit.png");
+    }
 }

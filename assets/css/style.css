@@ -3,6 +3,10 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body,
 html {
     margin: 0;
@@ -84,9 +88,8 @@ legend {
 }
 
 .padding-left-right {
-    padding-left: 95.156px;
-    padding-right: 95.156px;
-    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 /*  HEADER  */
@@ -106,6 +109,11 @@ button {
     border-radius: 42px;
     border: 0;
     background-color: #00DABE;
+    color: #002E50;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.250rem;
+    cursor: pointer;
 }
 
 button:hover {
@@ -115,16 +123,16 @@ button:hover {
     transition: 0.4s ease;
 }
 
-button a {
+/*button a {
     text-decoration: none;
     color: #002E50;
     text-transform: uppercase;
     font-weight: 800;
     font-size: 1.250rem;
-}
+}*/
 
 .next {
-    margin: 0 auto;
+    margin: 2rem auto;
     animation: 2s ease-in-out 1s infinite alternate apparition;
 }
 
@@ -144,12 +152,9 @@ button a {
 
 /* Explorer */
 
-.explorer {
-    width: 90%;
-}
-
 .contenuExplorer {
     margin-right: 10rem;
+    width: 40%;
 }
 
 .drop-shadow {
@@ -167,7 +172,16 @@ button a {
     background-color: #00DABE;
 }
 
+.contenuSucces {
+    width: 40%;
+}
+
 /* Telecharger */
+
+.contenuTelecharger {
+    width: 40%;
+}
+
 .logoTelecharger img {
     margin-right: 1rem;
 }

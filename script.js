@@ -1,3 +1,4 @@
+// Scroll Smooth
 // Sélectionnez tous les liens d'ancrage
 const links = document.querySelectorAll('a[href^="#"]');
 
